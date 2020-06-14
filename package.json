@@ -1,0 +1,17 @@
+{
+  "name": "nova-solarized-eclipse",
+  "version": "0.1.1",
+  "description": "A solarized dark inspired theme for Nova",
+  "repository": "https://github.com/aaff-se/nova-solareclipse-theme",
+  "scripts": {
+    "scss": "node-sass --watch scss -o SummerEclipse.novaextension/Themes"
+  },
+  "keywords": [
+    "nova",
+    "solarized"
+  ],
+  "author": "AAFF",
+  "devDependencies": {
+    "node-sass": "^4.13.1"
+  }
+}

@@ -1,0 +1,292 @@
+@import "settings/_colors.scss";
+
+meta {
+  -theme-interface-style: light;
+  -theme-vibrancy: false;
+  -theme-accent-color: false;
+}
+
+/*
+ * Window and Document styles
+ */
+meta.window,
+meta.document {
+  background-color: $background;
+  border-color: $background-lighter;
+}
+meta.titlebar {
+  color: $black;
+  background-color: $background;
+  border-color: $background-lighter;
+}
+meta.titlebar.inactive {
+  background-color: $background-darker;
+}
+
+meta.button,
+meta.document.button {
+  background-color: $background;
+  border-color: $grey;
+  color: $grey;
+}
+meta.button.highlighted,
+meta.document.button.highlighted {
+  background-color: $grey;
+  border-color: $grey;
+  color: $background;
+}
+meta.button.selected,
+meta.document.button.selected {
+  background-color: $grey;
+  border-color: $black;
+  color: $black;
+}
+meta.button.highlighted.selected,
+meta.document.button.highlighted.selected {
+  background-color: $black;
+  border-color: $black;
+  color: $grey;
+}
+meta.button.disabled,
+meta.document.button.disabled {
+  background-color: $background;
+  border-color: $background-lighter;
+  color: $background-lighter;
+}
+
+meta.textfield,
+meta.document.textfield {
+  background-color: $background;
+  border-color: $background-lighter;
+  color: $black;
+}
+
+meta.accent {
+  color: $green;
+}
+
+/* Text */
+meta.text {
+  color: $black;
+}
+meta.text.invisible {
+  color: $background-lighter;
+}
+meta.text.selected {
+  background-color: $background-lighter;
+}
+
+/* Cursor */
+meta.cursor {
+  background-color: $background-darker;
+}
+
+/* Indentation Guides */
+meta.indentguide {
+  border-color: $background-lighter;
+}
+
+/* Gutter */
+meta.gutter {
+  color: $grey;
+  background-color: $background-lighter;
+}
+meta.gutter.selected {
+  background-color: $background-lighter;
+  color: hsb(210, 10%, 80%);
+}
+
+/*
+ * Syntax styles
+ */
+
+keyword {
+  color: $orange;
+}
+comment {
+  color: $grey;
+}
+processing {
+  color: $grey;
+}
+declaration {
+  color: $grey;
+}
+bracket {
+  color: $yellow;
+}
+operator {
+  color: $yellow;
+}
+invalid {
+  color: $red;
+}
+link {
+  color: $purple;
+}
+
+/* Values */
+value.boolean {
+  color: $orange;
+}
+value.null {
+  color: $grey;
+}
+value.number {
+  color: $pink;
+}
+value.entity {
+  color: $blue;
+}
+value.symbol {
+  color: $orange;
+}
+
+/* Identifiers */
+identifier.type {
+  color: $yellow;
+}
+identifier.constant {
+  color: $black;
+}
+identifier.global {
+  color: $orange;
+}
+identifier.variable {
+  color: $blue;
+}
+identifier.property,
+identifier.decorator,
+identifier.function,
+identifier.method {
+  color: $black;
+}
+identifier.key {
+  color: $orange;
+}
+identifier.argument {
+  color: $blue;
+}
+
+/* Strings */
+string {
+  color: $green;
+}
+string.key {
+  color: $black;
+}
+string-template {
+  color: $green;
+}
+string-template.value {
+  color: $black;
+}
+regex {
+  color: $red;
+}
+regex.escaped {
+  color: $red;
+}
+cdata {
+  color: $red;
+}
+
+/* Markup */
+markup.heading {
+  color: $red;
+}
+markup.line {
+  color: $yellow;
+}
+markup.bold {
+  color: $black;
+  font-weight: bold;
+}
+markup.italic {
+  color: $black;
+  font-style: italic;
+}
+markup.strikethrough {
+  color: $grey;
+}
+markup.list.item {
+  color: $orange;
+}
+markup.code {
+  color: $green;
+}
+
+/* Types */
+definition.class class.name,
+definition.type type.name,
+definition.package package.name,
+definition.enum enum.name,
+definition.union union.name,
+definition.struct struct.name {
+  font-weight: bold;
+  color: $yellow;
+}
+
+/* Members */
+definition.property property.name,
+definition.function function.name,
+definition.method method.name {
+  color: $black;
+}
+
+/* Tags */
+tag {
+  color: $blue;
+}
+tag.framework {
+  color: $grey;
+}
+tag.attribute.name {
+  color: $black;
+}
+tag.attribute.value {
+  color: $green;
+}
+tag.attribute.value.link {
+  color: $purple;
+}
+
+/* Styles */
+style {
+  color: $black;
+}
+style.at {
+  color: $orange;
+  font-weight: bold;
+}
+style.selector.element {
+  font-weight: bold;
+  color: $black;
+}
+style.selector.identifier.id {
+  color: $red;
+}
+style.selector.identifier.class {
+  color: $black;
+}
+style.selector.pseudoclass {
+  color: $yellow;
+}
+style.selector.pseudoelement {
+  color: $yellow;
+}
+style.attribute.name {
+  color: $orange;
+}
+style.value.number {
+  color: $pink;
+}
+style.value.color.hex {
+  color: $blue;
+}
+style.value.keyword {
+  color: $yellow;
+}
+style.value.color.named {
+  color: $yellow;
+}

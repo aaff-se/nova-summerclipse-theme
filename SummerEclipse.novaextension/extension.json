@@ -1,0 +1,13 @@
+{
+  "identifier": "aaff.SummerEclipse",
+  "name": "SummerEclipse",
+  "vendor": "AAFF",
+  "description": "A light version of SolarEclipse",
+  "version": "0.1.0",
+  "categories": ["themes"],
+  "repository": "https://github.com/aaff-se/nova-summerclipse-theme",
+  "homepage": "https://www.aaff.se",
+  "bugs": {
+    "url": "https://github.com/aaff-se/nova-summereclipse-theme/issues"
+  }
+}

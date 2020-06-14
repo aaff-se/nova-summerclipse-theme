@@ -1,0 +1,271 @@
+meta {
+  -theme-interface-style: light;
+  -theme-vibrancy: false;
+  -theme-accent-color: false; }
+
+/*
+ * Window and Document styles
+ */
+meta.window,
+meta.document {
+  background-color: #f6f6f4;
+  border-color: #fffffd; }
+
+meta.titlebar {
+  color: #141440;
+  background-color: #f6f6f4;
+  border-color: #fffffd; }
+
+meta.titlebar.inactive {
+  background-color: #ececea; }
+
+meta.button,
+meta.document.button {
+  background-color: #f6f6f4;
+  border-color: #a0a09d;
+  color: #a0a09d; }
+
+meta.button.highlighted,
+meta.document.button.highlighted {
+  background-color: #a0a09d;
+  border-color: #a0a09d;
+  color: #f6f6f4; }
+
+meta.button.selected,
+meta.document.button.selected {
+  background-color: #a0a09d;
+  border-color: #141440;
+  color: #141440; }
+
+meta.button.highlighted.selected,
+meta.document.button.highlighted.selected {
+  background-color: #141440;
+  border-color: #141440;
+  color: #a0a09d; }
+
+meta.button.disabled,
+meta.document.button.disabled {
+  background-color: #f6f6f4;
+  border-color: #fffffd;
+  color: #fffffd; }
+
+meta.textfield,
+meta.document.textfield {
+  background-color: #f6f6f4;
+  border-color: #fffffd;
+  color: #141440; }
+
+meta.accent {
+  color: #1db287; }
+
+/* Text */
+meta.text {
+  color: #141440; }
+
+meta.text.invisible {
+  color: #fffffd; }
+
+meta.text.selected {
+  background-color: #fffffd; }
+
+/* Cursor */
+meta.cursor {
+  background-color: #ececea; }
+
+/* Indentation Guides */
+meta.indentguide {
+  border-color: #fffffd; }
+
+/* Gutter */
+meta.gutter {
+  color: #a0a09d;
+  background-color: #fffffd; }
+
+meta.gutter.selected {
+  background-color: #fffffd;
+  color: hsb(210, 10%, 80%); }
+
+/*
+ * Syntax styles
+ */
+keyword {
+  color: #c1550c; }
+
+comment {
+  color: #a0a09d; }
+
+processing {
+  color: #a0a09d; }
+
+declaration {
+  color: #a0a09d; }
+
+bracket {
+  color: #8c8c00; }
+
+operator {
+  color: #8c8c00; }
+
+invalid {
+  color: #dc322f; }
+
+link {
+  color: #7671c4; }
+
+/* Values */
+value.boolean {
+  color: #c1550c; }
+
+value.null {
+  color: #a0a09d; }
+
+value.number {
+  color: #d45180; }
+
+value.entity {
+  color: #40aaf2; }
+
+value.symbol {
+  color: #c1550c; }
+
+/* Identifiers */
+identifier.type {
+  color: #8c8c00; }
+
+identifier.constant {
+  color: #141440; }
+
+identifier.global {
+  color: #c1550c; }
+
+identifier.variable {
+  color: #40aaf2; }
+
+identifier.property,
+identifier.decorator,
+identifier.function,
+identifier.method {
+  color: #141440; }
+
+identifier.key {
+  color: #c1550c; }
+
+identifier.argument {
+  color: #40aaf2; }
+
+/* Strings */
+string {
+  color: #1db287; }
+
+string.key {
+  color: #141440; }
+
+string-template {
+  color: #1db287; }
+
+string-template.value {
+  color: #141440; }
+
+regex {
+  color: #dc322f; }
+
+regex.escaped {
+  color: #dc322f; }
+
+cdata {
+  color: #dc322f; }
+
+/* Markup */
+markup.heading {
+  color: #dc322f; }
+
+markup.line {
+  color: #8c8c00; }
+
+markup.bold {
+  color: #141440;
+  font-weight: bold; }
+
+markup.italic {
+  color: #141440;
+  font-style: italic; }
+
+markup.strikethrough {
+  color: #a0a09d; }
+
+markup.list.item {
+  color: #c1550c; }
+
+markup.code {
+  color: #1db287; }
+
+/* Types */
+definition.class class.name,
+definition.type type.name,
+definition.package package.name,
+definition.enum enum.name,
+definition.union union.name,
+definition.struct struct.name {
+  font-weight: bold;
+  color: #8c8c00; }
+
+/* Members */
+definition.property property.name,
+definition.function function.name,
+definition.method method.name {
+  color: #141440; }
+
+/* Tags */
+tag {
+  color: #40aaf2; }
+
+tag.framework {
+  color: #a0a09d; }
+
+tag.attribute.name {
+  color: #141440; }
+
+tag.attribute.value {
+  color: #1db287; }
+
+tag.attribute.value.link {
+  color: #7671c4; }
+
+/* Styles */
+style {
+  color: #141440; }
+
+style.at {
+  color: #c1550c;
+  font-weight: bold; }
+
+style.selector.element {
+  font-weight: bold;
+  color: #141440; }
+
+style.selector.identifier.id {
+  color: #dc322f; }
+
+style.selector.identifier.class {
+  color: #141440; }
+
+style.selector.pseudoclass {
+  color: #8c8c00; }
+
+style.selector.pseudoelement {
+  color: #8c8c00; }
+
+style.attribute.name {
+  color: #c1550c; }
+
+style.value.number {
+  color: #d45180; }
+
+style.value.color.hex {
+  color: #40aaf2; }
+
+style.value.keyword {
+  color: #8c8c00; }
+
+style.value.color.named {
+  color: #8c8c00; }
