@@ -1,3 +1,7 @@
+## Version 0.1.3
+
+Keeping font weights in sync with SolarEclipse
+
 ## Version 0.1.2
 
 Added image to readme, and a retina icon
